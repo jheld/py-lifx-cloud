@@ -7,7 +7,7 @@ from urllib.parse import urlencode
 
 class LifxClient(object):
     """
-    Interface to managing LIFX bulbs through the cloud server.
+    Interface to manage LIFX bulbs through the cloud server.
     """
     def __init__(self, client_token, server_version='v1beta1'):
         """
